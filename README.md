@@ -40,14 +40,16 @@ sudo dnf install gcc gtk3-devel pkgconfig
 sudo pacman -S base-devel gtk3 pkgconf
 ```
 
-### Build & Run
+### Clone & Build
 
 ```bash
-cd build
+git clone https://github.com/n0sync/Prisoner-Dilemma
+```
+```
+cd Prisoner-Dilemma/build
 make all
 ./main
 ```
-
 ## How to Play
 
 1. Set number of rounds (1-20)
@@ -66,3 +68,4 @@ make run         # Build and run
 make clean       # Remove executable
 make help        # Show all commands
 ```
+
